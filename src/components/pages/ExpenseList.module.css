@@ -1,0 +1,83 @@
+.expenselist {
+  display: block;
+  width:auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.8rem;
+  height: auto;
+  padding-bottom: 10rem;
+  color: white;
+}
+
+.expenseitems {
+  display: flex;
+  width: 80%;
+  height: max-content;
+  margin: auto;
+  border-radius: 10px;
+  padding: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: black;
+}
+
+.expenseitems1{
+  display: flex;
+  width: 80%;
+  height: max-content;
+  margin: auto;
+  border-radius: 10px;
+  padding: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(97, 94, 94);
+  color: black;
+}
+
+.expenseitems1 div{
+  margin: 10px;
+  width: 33%;
+}
+
+.expenseitems div {
+  margin: 10px;
+  width: 33%;
+}
+
+.expenseitems .expensedate {
+  width: auto;
+  height: max-content;
+  padding: 5px;
+  box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.8);
+  -webkit-box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.8);
+  -moz-box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.8);
+  text-shadow: 2px 2px 5px #919191;
+  font-family: Prosto One;
+  margin-left: auto;
+  background-color: rgba(116, 111, 111, 0.507);
+}
+.expenseitems1 .expensedate {
+  width: auto;
+  height: max-content;
+  padding: 5px;
+  box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.8);
+  -webkit-box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.8);
+  -moz-box-shadow: 3px 3px 4px rgba(99, 99, 99, 0.8);
+  text-shadow: 2px 2px 5px #919191;
+  font-family: Prosto One;
+  margin-left: auto;
+  background-color: rgba(116, 111, 111, 0.507);
+}
+
+.day {
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.month {
+  top: 60px; /*size of .day font and its shadow*/
+}
+
+.year {
+  position: relative;
+
+}

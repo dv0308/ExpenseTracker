@@ -1,0 +1,63 @@
+.expensecard{
+    background-color:black;
+    font-family: 'Bakbak One';
+    color: white;
+    width: max-content;
+    padding: 0.5rem;
+    height: max-content;
+    margin: 1rem auto auto auto;
+    border-radius: 20px;
+}
+
+.expensecard h1{
+    font-size: 1.1rem;
+    font-weight: 100;
+
+}
+.outerincome img{
+    width: 2rem;
+    margin-top: 3rem;
+    height: 2rem;
+}
+
+.income{
+    line-height: 15px;
+}
+.expense{
+    line-height: 15px;
+}
+
+.expensecard span{
+    font-size: 2rem;
+}
+.expensecard .balance{
+    margin: auto;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.expensecard .balance h1{
+    margin: auto;
+    width: 60%;
+}
+
+.expensecard .balance span{
+    margin: auto;
+    width: 50%;
+}
+.expensecard .income{
+    display: flexbox;
+    margin: 1rem;
+}
+
+
+.expense{
+    display: flexbox;
+    margin: 1rem;
+}
+
+.expensecard .outerincome{
+    display: flex;
+}

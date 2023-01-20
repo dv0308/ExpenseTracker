@@ -1,0 +1,18 @@
+.App{
+  background-color:white;
+  color: #05386B;
+}
+
+.App2{
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons{
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}

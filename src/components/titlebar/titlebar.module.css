@@ -1,0 +1,33 @@
+.titlebar{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    padding-top: 1rem;
+    font-size: 0.55rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profilepic{
+    margin-left: 9rem;
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px black double;
+}
+.titlebar .name{
+    width: max-content;
+    margin-left: 1rem;
+    padding: 0;
+}
+
+.titlebar h1{
+    margin: 0;
+    width: auto;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.titlebar h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+}

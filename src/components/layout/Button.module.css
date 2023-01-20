@@ -1,0 +1,17 @@
+.functionalbuttons{
+    margin: 1rem;
+    color: black;
+    background-color: white;
+    border: 0;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: font-size 0.4s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.functionalbuttons:hover{
+    font-size: 2.5rem;
+    color: white;
+    background-color: black;
+}
